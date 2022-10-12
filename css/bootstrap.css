@@ -1433,12 +1433,12 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
-    height: auto
+    width: 90%;
+    height: 300px;
 }
 
 .img-rounded {
-    border-radius: 6px
+    border-radius: 6px;
 }
 
 .img-thumbnail {

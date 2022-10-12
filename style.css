@@ -675,7 +675,7 @@ a {
   text-align: center;
   font-weight: lighter;
   max-width: 520px;
-  margin: auto auto auto auto;
+  margin: auto;
 }
 
 p {
@@ -684,7 +684,7 @@ p {
 
 .tight-width-whitespace {
   max-width: 600px;
-  margin: auto auto auto auto;
+  margin: auto;
 }
 
 .h1 {

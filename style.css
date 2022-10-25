@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  background: #fff;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -97,6 +96,7 @@ a:hover {
 
 .b-parallax {
   background-attachment: fixed;
+ 
 }
 
 .d-bloc {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: rgba(255, 255, 255, 0.6);
+  color:black;
 }
 
 .d-bloc .a-btn:hover,
@@ -283,9 +283,6 @@ a:hover {
   padding-left: 0;
 }
 
-#bloc-1-hero h1 {
-  font-size: 32px;
-}
 
 .navbar {
   margin-bottom: 0;
@@ -302,7 +299,7 @@ a:hover {
 }
 
 .navbar-brand img {
-  max-height: 200px;
+  height: 200px;
   margin: 0 5px 0 0;
   display: inline;
 }
@@ -442,7 +439,7 @@ nav .caret {
 
 .mg-lg {
   margin-top: 10px;
-  margin-bottom: 40px;
+  color: white !important;
 }
 
 .btn {
@@ -650,10 +647,11 @@ h6,
 p,
 label,
 .btn,
+li,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: black !important;
 }
 
 .container {
@@ -679,7 +677,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -707,15 +705,11 @@ p {
 }
 
 h2 {
-  font-size: 22px;
   line-height: 1.4em;
 }
 
 h3 {
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #333333 !important;
+  color: black !important;
 }
 
 .med-width-whitespace {
@@ -725,11 +719,11 @@ h3 {
 }
 
 h1 {
-  color: #333333 !important;
+  color: white !important;
 }
 
 h4 {
-  color: #333333 !important;
+  color: black !important;
 }
 
 .icons {
@@ -737,9 +731,6 @@ h4 {
   margin-top: 24px;
 }
 
-.white {
-  color: #ffffff !important;
-}
 
 .portfolio-thumb {
   margin-bottom: 24px;
@@ -777,12 +768,12 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: white!important;
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -821,10 +812,12 @@ h4 {
 
 .bg-banniere {
   background-image: url("img/agence-la-panthere.jpg");
+ 
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.jpg");
+  
 }
 
 @media (max-width: 1024px) {

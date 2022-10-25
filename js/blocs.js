@@ -181,7 +181,7 @@ function i() {
               $(".prev-lightbox").show());
     });
 }
-$(document).ready(function () {
+$(document).ready(function (){
   $("#scroll-hero").click(function (t) {
     t.preventDefault(),
       $("html,body").animate(

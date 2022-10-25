@@ -724,5 +724,5 @@ var e;
     : e(
         "undefined" != typeof module && module.exports
           ? require("jquery")
-          : jQuery
+          : jquery
       );

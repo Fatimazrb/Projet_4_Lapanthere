@@ -38,6 +38,11 @@ a:hover {
   position: relative;
 }
 
+#bloc-5-cta {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .bloc .container {
   padding-left: 0;
   padding-right: 0;
@@ -652,6 +657,7 @@ a {
   font-family: "helvetica";
   font-weight: 400;
   color: black !important;
+  list-style-type: none;
 }
 
 .container {
@@ -704,6 +710,7 @@ p {
   margin: auto auto auto auto;
 }
 
+
 h2 {
   line-height: 1.4em;
 }
@@ -734,6 +741,8 @@ h4 {
 
 .portfolio-thumb {
   margin-bottom: 24px;
+  width: 280px;
+  height: 300px;
 }
 
 .portfolio-row {
@@ -1035,3 +1044,20 @@ h4 {
     text-align: center;
   }
 }
+
+@media screen and (max-width:767px){
+  .portfolio-thumb{
+    width: 85%;
+    height: 280px;
+    display: block;
+    margin: auto;
+  }
+  .social{
+    display: flex;
+    max-width: 400px;
+  margin: auto;
+  justify-content: space-around;
+  
+  }
+}
+

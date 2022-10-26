@@ -4,7 +4,7 @@
  * Licensed under the MIT license
  */
 if ("undefined" == typeof jQuery)
-  throw Error("Bootstrap's JavaScript requires jQuery");
+  throw new Error("Bootstrap's JavaScript requires jQuery version 1.9.1 or higher");
 var t;
 !(function (t) {
   var e = jQuery.fn.jquery.split(" ")[0].split(".");

@@ -49,9 +49,14 @@ a:hover {
   position: relative;
 }
 
-#bloc-5-cta {
-  padding-left: 50px;
-  padding-right: 50px;
+#bloc-5-cta h2{
+   margin-left: 10px;
+   margin-right: 10px;
+   color: white !important;
+}
+
+#bloc-3-what-i-do p{
+  color: white !important;
 }
 
 .bloc .container {

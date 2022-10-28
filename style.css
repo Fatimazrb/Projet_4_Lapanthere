@@ -23,6 +23,7 @@ button {
   outline: none !important;
 }
 
+a:focus,
 a:hover {
   text-decoration: none;
   cursor: pointer;
@@ -153,28 +154,40 @@ a:hover {
 }
 
 .d-bloc .a-btn:hover,
+.d-bloc .a-btn:focus,
 .d-bloc .navbar a:hover,
+.d-bloc .navbar a:focus,
 .d-bloc .navbar-brand:hover,
+.d-bloc .navbar-brand:focus,
 .d-bloc a:hover .icon-sm,
+.d-bloc a:focus .icon-sm,
 .d-bloc a:hover .icon-md,
+.d-bloc a:focus .icon-md,
 .d-bloc a:hover .icon-lg,
+.d-bloc a:focus .icon-lg,
 .d-bloc a:hover .icon-xl,
+.d-bloc a:focus .icon-xl,
 .d-bloc h1 a:hover,
+.d-bloc h1 a:focus,
 .d-bloc h2 a:hover,
+.d-bloc h2 a:focus,
 .d-bloc h3 a:hover,
+.d-bloc h3 a:focus,
 .d-bloc h4 a:hover,
+.d-bloc h4 a:focus,
 .d-bloc h5 a:hover,
+.d-bloc h5 a:focus,
 .d-bloc h6 a:hover,
-.d-bloc p a:hover {
+.d-bloc h6 a:focus,
+.d-bloc p a:hover
+.d-bloc p a:focus {
   color: rgba(255, 255, 255, 1);
 }
 
-.d-bloc .navbar-toggle .icon-bar {
-  background: rgba(255, 255, 255, 1);
-}
 
 .d-bloc .btn-wire,
-.d-bloc .btn-wire:hover {
+.d-bloc .btn-wire:hover
+.d-bloc .btn-wire:focus {
   color: rgba(255, 255, 255, 1);
   border-color: rgba(255, 255, 255, 1);
 }
@@ -248,36 +261,6 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
   color: rgba(0, 0, 0, 0.6);
-}
-
-.d-bloc .panel .a-btn:hover,
-.l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
-.l-bloc .navbar-brand:hover,
-.l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
-.l-bloc a:hover .icon-lg,
-.l-bloc a:hover .icon-xl,
-.l-bloc h1 a:hover,
-.l-bloc h2 a:hover,
-.l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
-.l-bloc p a:hover {
-  color: rgba(0, 0, 0, 1);
-}
-
-.l-bloc .navbar-toggle .icon-bar {
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.d-bloc .panel .btn-wire,
-.d-bloc .panel .btn-wire:hover,
-.l-bloc .btn-wire,
-.l-bloc .btn-wire:hover {
-  color: rgba(0, 0, 0, 0.7);
-  border-color: rgba(0, 0, 0, 0.3);
 }
 
 .voffset {
@@ -473,7 +456,7 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-  color: #fff;
+  color: #ffffff;
   background: rgba(0, 0, 0, 0.3);
 }
 
@@ -503,29 +486,6 @@ button {
 
 .sm-shadow {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-}
-
-.panel-sq,
-.panel-sq .panel-heading,
-.panel-sq .panel-footer {
-  border-radius: 0;
-}
-
-.panel-rd {
-  border-radius: 30px;
-}
-
-.panel-rd .panel-heading {
-  border-radius: 29px 29px 0 0;
-}
-
-.panel-rd .panel-footer {
-  border-radius: 0 0 29px 29px;
-}
-
-.form-control {
-  border-color: rgba(0, 0, 0, 0.1);
-  box-shadow: none;
 }
 
 .scrollToTop {

@@ -53,10 +53,12 @@ a:hover {
    margin-left: 10px;
    margin-right: 10px;
    color: white !important;
+   background-color: transparent !important;
 }
 
 #bloc-3-what-i-do p{
   color: white !important;
+  background-color: transparent !important;
 }
 
 .bloc .container {
@@ -747,7 +749,7 @@ h3 {
 }
 
 h1 {
-  color: white !important;
+  color: #f3976c !important;
 }
 
 h4 {

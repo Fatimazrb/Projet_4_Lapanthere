@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="L'agence La Panthère vous écoute pour vos projets"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" defer >
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css"defer >
+    <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
+
+    <script src="./js/blocs.js"></script>
+    <script src="./js/formHandler.js"></script>
+    <title>Contact</title>
+
+    <!-- Analytics -->
+
+    <!-- Analytics END -->
+  </head>
+  <body>
+    <!-- Principal conteneur -->
+    <div class="page-container">
+      <!-- bloc-0 -->
+      <header id="bloc-0">
+        <nav>
+          <div class="navbar-header">
+            <img
+              src="img/agence-la-panthere.svg"
+              alt="logo de l'agence La Panthère"
+              class="logo"
+            />
+          </div>
+        </nav>
+      </header>
+      <!-- bloc-0 END -->
+
+      <!-- bloc-6 -->
+      <section
+        class="bloc bg-banniere"
+      >
+        <div class="container bloc-lg">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="text-center">Parlons web design !</h1>
+              <h2 class="text-center mg-lg tight-width-whitespace">
+                Nous sommes ravis que vous souhaitiez collaborer avec notre
+                agence.<br />
+                Parlez-nous de votre projet en complétant le formulaire
+                ci-dessous.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- bloc-6 END -->
+
+      <!-- bloc-7 -->
+      <main class="bloc bgc-white l-bloc">
+        <div class="container bloc-lg">
+          <div class="row">
+            <div class="col-sm-6">
+              <form
+                id="form_1"
+                novalidate
+                data-success-msg="Your message has been sent."
+                data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
+              >
+                <div class="form-group">
+                  <label
+                    ><p>Nom</p>
+                    <input id="name" class="form-control" required />
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label>
+                    <p>Adresse email</p>
+                    <input
+                      id="email"
+                      class="form-control"
+                      type="email"
+                      required
+                  /></label>
+                </div>
+                <div class="form-group">
+                  <label>
+                    <p>Comment nous avez-vous connu ?</p>
+                    <input
+                      class="form-control"
+                      type="text"
+                      required
+                      id="input_504"
+                    />
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label>
+                    <p>
+                      Brief de votre projet (Ajoutez autant de détails que
+                      nécessaire)
+                    </p>
+                    <br />
+                    <textarea
+                      id="message"
+                      class="form-control"
+                      rows="4"
+                      cols="50"
+                      required
+                    ></textarea>
+                  </label>
+                </div>
+                <button
+                  class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero"
+                  type="submit"
+                >
+                  Envoyer
+                </button>
+              </form>
+            </div>
+
+            <div class="col-sm-6">
+              <p>
+                contact@agencelapanthere.com<br>
+                2 place Sathonay 69001 Lyon<br>
+                Ouvert
+                de 9h à 18h, du lundi au vendredi<br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- bloc-7 END -->
+
+      <!-- ScrollToTop Button -->
+      <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"
+        ><span class="fa fa-chevron-up"></span
+      ></a>
+      <!-- ScrollToTop Button END-->
+
+      <!-- Footer - bloc-8 -->
+      <footer class="bloc bgc-atomic-tangerine " >
+        <div class="container bloc-sm">
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="text-center white">
+                La Panthère - Agence web basée à Lyon.<br />
+              </p>
+              <div class="row row-no-gutters social">
+                <div class="col-sm-3">
+                  <div class="text-center">
+                    <a class="social"
+                      ><span class="fa fa-twitter icon-md"></span
+                    ></a>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="text-center">
+                    <a class="social" 
+                      ><span class="fa fa-facebook icon-md"></span
+                    ></a>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="text-center">
+                    <a class="social"
+                      ><span class="fa fa-dribbble icon-md"></span
+                    ></a>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="text-center">
+                    <a class="social" 
+                      ><span class="fa fa-instagram icon-md"></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer - bloc-8 END -->
+    </div>
+    <!-- Principal conteneur END -->
+  </body>
+</html>

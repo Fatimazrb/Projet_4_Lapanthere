@@ -54,15 +54,18 @@ a:hover {
 }
 
 #bloc-5-cta h2 {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
   color: white !important;
-  background-color: transparent !important;
+}
+
+#bloc-5-cta .btn{
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #bloc-3-what-i-do p {
   color: white !important;
-  background-color: transparent !important;
 }
 
 .bloc .container {
@@ -397,6 +400,9 @@ p {
 .social {
   max-width: 400px;
   margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
 }
 
 h2 {
@@ -595,6 +601,10 @@ h4 {
 
 @media (max-width: 767px) {
 
+  .page2{
+    padding:20px !important;
+  }
+
   .page-container {
       overflow-x: hidden;
       position: relative;
@@ -687,17 +697,19 @@ h4 {
     display: flex;
     flex-direction: column;
   }
-}
 
-@media (max-width: 400px) {
-  .bloc {
-      padding-left: 0;
-      padding-right: 0;
+  .col-sm-6{	
+    margin-top: 20px;	
+  }	  
+  .portfolio-thumb {	
+    width: 85%;	  
+    height: 280px;	  
+    display: block;	      
+    margin: auto;	      
   }
-}
 
-@media (max-width: 767px) {
   .bloc-mob-center-text {
-      text-align: center;
-  }
+    text-align: center;
 }
+}
+

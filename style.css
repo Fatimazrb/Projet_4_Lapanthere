@@ -194,6 +194,7 @@ nav {
 .icon-md:focus,
 .icon-md:hover {
   color: white;
+  text-decoration: none;
 }
 
 .icon-lg {
@@ -412,6 +413,7 @@ h2 {
 
 h3 {
   color: black !important;
+  margin: auto;
 }
 
 .med-width-whitespace {
@@ -439,8 +441,12 @@ h4 {
 
 .portfolio-thumb {
   margin-bottom: 24px;
-  width: 290px !important;
-  height: 300px !important;
+  width: 85% !important;
+  height: 280px !important;
+}
+
+.col-sm-6 h4{
+  width: 90%;
 }
 
 .portfolio-row {
@@ -589,6 +595,10 @@ footer li {
   margin-left: -30px;
 }
 
+footer .social:hover{
+  text-decoration: none;
+}
+
 @media (max-width: 767px) {
   .page2 {
     padding: 20px !important;
@@ -694,6 +704,10 @@ footer li {
     height: 280px;
     display: block;
     margin: auto;
+  }
+
+  .col-sm-6 h4{
+    width: 100%;
   }
 
   .bloc-mob-center-text {

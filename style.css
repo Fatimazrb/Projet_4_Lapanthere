@@ -441,8 +441,8 @@ h4 {
 
 .portfolio-thumb {
   margin-bottom: 24px;
-  width: 280px;
-  height: 300px;
+  width: 280px !important;
+  height: 300px !important;
 }
 
 
@@ -697,8 +697,8 @@ footer .social:hover{
     margin-top: 20px;
   }
   .portfolio-thumb {
-    width: 280px;
-    height: 300px;
+    width: 280px !important;
+    height: 300px !important;
     display: block;
     margin: auto;
   }
